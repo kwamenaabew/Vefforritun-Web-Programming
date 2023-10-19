@@ -1,29 +1,36 @@
 /* styles/base/_base.scss */
 
-/* HTML Styles */
-html {
-    box-sizing: border-box;
+/* Almennt */
+html,
+input,
+select,
+button {
+  font-size: var(--font-base-body-px);
+  font-family: var(--font-family-base);
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: var(--spacing);
+  font-family: var(--font-family-heading);
+}
+
+a {
+  color: inherit;
+  background-color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Fade in animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
   }
-  
-  html,
-  input,
-  select,
-  button {
-    font-size: var(--font-base-body-px);
-    font-family: var(--font-family-base);
+  to {
+    opacity: 1;
   }
-  
-  /* Heading Styles */
-  h1,
-  h2,
-  h3 {
-    margin-bottom: var(--spacing);
-    font-family: var(--font-family-heading);
-  }
-  
-  /* Anchor Tag Styles */
-  a {
-    color: inherit;
-    background-color: inherit;
-  }
-  
+}

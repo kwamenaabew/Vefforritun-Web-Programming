@@ -88,11 +88,7 @@ h3 {
 }
 
 /* styles/base/_base.scss */
-/* HTML Styles */
-html {
-  box-sizing: border-box;
-}
-
+/* Almennt */
 html,
 input,
 select,
@@ -101,7 +97,6 @@ button {
   font-family: var(--font-family-base);
 }
 
-/* Heading Styles */
 h1,
 h2,
 h3 {
@@ -109,12 +104,24 @@ h3 {
   font-family: var(--font-family-heading);
 }
 
-/* Anchor Tag Styles */
 a {
   color: inherit;
   background-color: inherit;
 }
 
+img {
+  max-width: 100%;
+}
+
+/* Fade in animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /* styles/components/_buttons.scss */
 /* Takki */
 .button {
