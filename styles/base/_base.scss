@@ -1,0 +1,29 @@
+/* styles/base/_base.scss */
+
+/* HTML Styles */
+html {
+    box-sizing: border-box;
+  }
+  
+  html,
+  input,
+  select,
+  button {
+    font-size: var(--font-base-body-px);
+    font-family: var(--font-family-base);
+  }
+  
+  /* Heading Styles */
+  h1,
+  h2,
+  h3 {
+    margin-bottom: var(--spacing);
+    font-family: var(--font-family-heading);
+  }
+  
+  /* Anchor Tag Styles */
+  a {
+    color: inherit;
+    background-color: inherit;
+  }
+  

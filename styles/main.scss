@@ -1,0 +1,15 @@
+/* styles/main.scss */
+
+@import 'config';
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+@import 'components/buttons';
+@import 'layouts/header';
+@import 'layouts/navigation';
+@import 'layouts/main';
+@import 'layouts/footer';
+@import 'layouts/boxes';
+@import 'layouts/form';
+@import 'utils/helpers';
+@import 'utils/animations';
