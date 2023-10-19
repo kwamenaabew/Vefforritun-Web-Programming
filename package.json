@@ -1,0 +1,29 @@
+{
+  "name": "v5",
+  "version": "1.0.0",
+  "description": "Homework assignmet 6",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"browser-sync start --server --files '*.html, styles/*.css'\" \"sass --watch styles:styles\"",
+    "build": "sass styles/main.scss:styles/main.css",
+    "lint": "stylelint \"styles/**/*.scss\""
+  }
+  ,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwamenaabew/Vefforritun-Web-Programming.git"
+  },
+  "author": "David Abew-Baidoo (daa32@hi.is)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwamenaabew/Vefforritun-Web-Programming/issues"
+  },
+  "homepage": "https://github.com/kwamenaabew/Vefforritun-Web-Programming#readme",
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.1",
+    "sass": "^1.69.3",
+    "stylelint": "^15.10.3",
+    "stylelint-config-sass-guidelines": "^10.0.0"
+  }
+}
